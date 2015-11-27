@@ -1,0 +1,9 @@
+.\objects\pwm_init.o: PWM_Init.c
+.\objects\pwm_init.o: C:\Keil_v5\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h
+.\objects\pwm_init.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\objects\pwm_init.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm_init.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\pwm_init.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\pwm_init.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\objects\pwm_init.o: C:\Keil_v5\ARM\Inc\TI\TM4C123\system_TM4C123.h
+.\objects\pwm_init.o: PWM_Init.h

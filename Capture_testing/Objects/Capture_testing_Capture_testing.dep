@@ -1,0 +1,50 @@
+Dependencies for Project 'Capture_testing', Target 'Capture_testing': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5384E5C4)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123--pd "__UVISION_VERSION SETA 516"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
+F (.\main.c)(0x564AAB60)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -DTM4C123GH6PM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h)(0x55E8711A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x559D04E6)
+I (PLL.h)(0x539F1FE4)
+I (UART.h)(0x55BB583F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AF191A)
+I (fifo.h)(0x5625F409)
+I (PWM_Init.h)(0x563B3220)
+I (Encoder_Capture.h)(0x564AAAF5)
+F (.\PLL.c)(0x539F1FE8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -DTM4C123GH6PM-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (PLL.h)(0x539F1FE4)
+F (.\UART.c)(0x55BB570C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -DTM4C123GH6PM-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h)(0x55E8711A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x559D04E6)
+I (UART.h)(0x55BB583F)
+F (.\fifo.c)(0x5625F407)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -DTM4C123GH6PM-o .\objects\fifo.o --omf_browse .\objects\fifo.crf --depend .\objects\fifo.d)
+I (fifo.h)(0x5625F409)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+F (.\PWM_Init.c)(0x563B3232)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -DTM4C123GH6PM-o .\objects\pwm_init.o --omf_browse .\objects\pwm_init.crf --depend .\objects\pwm_init.d)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h)(0x55E8711A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x559D04E6)
+I (PWM_Init.h)(0x563B3220)
+F (.\Encoder_Capture.c)(0x564AAAE8)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\TI\TM4C123-D__UVISION_VERSION="516" -DTM4C123GH6PM-o .\objects\encoder_capture.o --omf_browse .\objects\encoder_capture.crf --depend .\objects\encoder_capture.d)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h)(0x55E8711A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AF191A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h)(0x559D0EC0)
+I (C:\Keil_v5\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x559D04E6)
+I (Encoder_Capture.h)(0x564AAAF5)

@@ -1,0 +1,11 @@
+--cpu Cortex-M4
+".\objects\startup_tm4c123.o"
+".\objects\main.o"
+".\objects\pll.o"
+".\objects\uart.o"
+".\objects\fifo.o"
+".\objects\pwm_init.o"
+".\objects\encoder_capture.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Capture_testing.map" -o .\Objects\Capture_testing.axf
